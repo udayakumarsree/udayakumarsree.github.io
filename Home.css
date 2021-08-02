@@ -9,23 +9,18 @@
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
   font-family: Aladin;
-  margin: 0 auto;
+  margin: 26px auto 0;
 }
 
 .u-section-1 .u-image-1 {
+  width: 286px;
+  height: 143px;
   margin: 30px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
     font-weight: normal;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-text-1 {
-    margin-top: 60px;
-    margin-bottom: 60px;
   }
 }
 
