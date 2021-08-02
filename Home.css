@@ -1,31 +1,47 @@
-.u-section-1 {
-  background-image: none;
-}
-
 .u-section-1 .u-sheet-1 {
-  min-height: 303px;
+  min-height: 156px;
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 3.75rem;
-  font-family: Aladin;
+  font-weight: normal;
   margin: 24px auto 0;
 }
 
-.u-section-1 .u-image-1 {
+.u-section-1 .u-text-2 {
+  font-size: 1.5rem;
+  font-family: "Meie Script";
+  margin: -1px auto 44px;
+}.u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 343px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 3.75rem;
+  font-weight: normal;
+  font-family: Oswald, sans-serif;
+  width: 689px;
+  margin: 64px auto 0;
+}
+
+.u-section-2 .u-image-1 {
   width: 286px;
   height: 143px;
   margin: 30px auto 40px;
 }
 
-@media (max-width: 1199px) {
-  .u-section-1 .u-text-1 {
-    font-weight: normal;
+@media (max-width: 767px) {
+  .u-section-2 .u-text-1 {
+    width: 540px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-text-1 {
+  .u-section-2 .u-text-1 {
     font-size: 2.25rem;
+    width: 340px;
   }
 }
